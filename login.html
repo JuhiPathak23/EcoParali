@@ -384,9 +384,9 @@
             event.preventDefault(); // Prevent the form from submitting normally
             const userType = document.getElementById('user_type').value;
             if (userType === 'farmer') {
-                this.action = 'farmer_selling_history.php';
+                this.action = 'farmerprofile.html';
             } else if (userType === 'company') {
-                this.action = 'company_registered.php';
+                this.action = 'companyprofile.html';
             }
             this.submit(); // Submit the form with the new action
         });
